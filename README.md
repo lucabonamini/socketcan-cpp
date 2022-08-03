@@ -1,5 +1,5 @@
-# template_repository
-A templare repository for a C++ project
+# SocketCAN-cpp
+A simple library for CAN communication, written in C++
 
 ## Dependencies
 
