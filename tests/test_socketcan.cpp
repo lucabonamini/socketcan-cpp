@@ -5,7 +5,7 @@
 
 using namespace testing;
 
-TEST(SocketCan, CreateSocketCanObject) {
+TEST(SocketCAN, CreateSocketCanObject) {
   EXPECT_NO_THROW(::transport::SocketCan socket("vcan0"));
 }
 

@@ -7,7 +7,7 @@
 #include <cstring>
 
 int main() {
-    transport::SocketCan s_can("vcan0");
+    ::transport::SocketCan s_can("vcan0");
     while(true) {
         can_frame frame;
         frame.can_id = 0x555;
